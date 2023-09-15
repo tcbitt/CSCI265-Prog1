@@ -16,7 +16,7 @@ public class Prog1part4 {
     public static void main(String[] args) {
         int[] coins = new int[4];
         
-        DecimalFormat decFormat = new DecimalFormat("#.##");
+        DecimalFormat decFormat = new DecimalFormat("#.#0");
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Quarters: ");
