@@ -17,16 +17,16 @@ int main() {
 	std::cin >> mSeconds;
 
 	//Ternary operations to account for 0 minutes/seconds easier
-	if (mSeconds >= 60000 ? std::cout << std::floor(mSeconds / 60000) << " minute(s)" << std::endl : std::cout << 0 << " minute(s)" << std::endl);
+	if (mSeconds >= 60000 ? std::cout << std::floor(mSeconds / 60000) << std::endl : std::cout << 0  << std::endl);
 		mSeconds -= ((60000) * std::floor(mSeconds / 60000));
 
 
-	if (mSeconds >= 1000 ? std::cout << std::floor(mSeconds / 1000) << " second(s)" << std::endl : std::cout << 0 << " second(s)" << std::endl);
+	if (mSeconds >= 1000 ? std::cout << std::floor(mSeconds / 1000) << std::endl : std::cout << 0  << std::endl);
 		mSeconds -= ((1000) * std::floor(mSeconds / 1000));
 
 
 	//Output remaining ms
-	std::cout << mSeconds << " milliseconds";
+	std::cout << mSeconds;
 	
 	
 }
