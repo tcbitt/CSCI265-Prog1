@@ -36,7 +36,7 @@ public class Prog1part2
 	    zipCode = sc.nextInt();
 	    
 	    
-	    System.out.print(firstName + " " + lastName + '\n' + address + '\n' + city + ", " + state + "  " + zipCode);
+	    System.out.println(firstName + " " + lastName + '\n' + address + '\n' + city + ", " + state + "  " + zipCode);
 	   
 	    
 	    
