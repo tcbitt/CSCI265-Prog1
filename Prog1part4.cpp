@@ -11,7 +11,7 @@ Displays sum of coins multiplied by their respective denomination.
 #include <iomanip>
 
 int main() {
-	std::cout << setprecision(2) << fixed;
+	std::cout << std::setprecision(2) << std::fixed;
 	
 	int coins[4] = { 0 };
 
