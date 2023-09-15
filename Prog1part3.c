@@ -21,7 +21,7 @@ int main() {
 	if (mSeconds >= 60000 ? printf("%g\n", floor(mSeconds / 60000)) : printf("%d\n", 0));
 	mSeconds -= ((60000) * floor(mSeconds / 60000));
 
-	if (mSeconds >= 1000 ? printf("%g \n", floor(mSeconds / 1000)) : printf("%d\n", 0));
+	if (mSeconds >= 1000 ? printf("%g\n", floor(mSeconds / 1000)) : printf("%d\n", 0));
 	mSeconds -= ((1000) * floor(mSeconds / 1000));
 
 	printf("%d", mSeconds);
