@@ -9,7 +9,7 @@
  */
 import java.util.Scanner;
 
-public class Prog1part1
+public class Prog1part2
 {
 	public static void main(String[] args) {
 		String firstName, lastName, address, city, state;
@@ -36,7 +36,7 @@ public class Prog1part1
 	    zipCode = sc.nextInt();
 	    
 	    
-	    System.out.print(firstName + " " + lastName + '\n' + address + '\n' + city + ", " + state + ' ' + zipCode);
+	    System.out.print(firstName + " " + lastName + '\n' + address + '\n' + city + ", " + state + "  " + zipCode);
 	   
 	    
 	    
