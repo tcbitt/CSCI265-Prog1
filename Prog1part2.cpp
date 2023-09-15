@@ -17,7 +17,7 @@ int main(){
 		city,
 		state;
 
-	int zipCode;
+	int zip;
 
 	//Display field and get input
 	std::cout << "First: ";
@@ -39,7 +39,7 @@ int main(){
 	getline(std::cin, state, '\n');
 
 	std::cout << "Zip: ";
-	std::cin >> zipCode;
+	std::cin >> zip;
 
 
 	//Display input in mailing address format in a single cout statement
@@ -48,6 +48,6 @@ int main(){
 			  << address << std::endl
 			  << city << ", "
 			  << state << "  "
-			  << zipCode;
+			  << zip;
 
 }
