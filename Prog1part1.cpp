@@ -16,7 +16,7 @@ int main(){
 		city,
 		state;
 
-	int zipCode;
+	int zipCode = 0;
 
 	//Display field and get input
 	std::cout << "First: ";
