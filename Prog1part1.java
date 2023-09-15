@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Prog1part1
 {
-	public static void main(String[] args) {
+	public static void main() {
 		String firstName, lastName, address, city, state;
 		int zipCode;
 		
