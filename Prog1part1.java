@@ -17,30 +17,30 @@ public class Prog1part1
 		
 		Scanner sc = new Scanner(System.in);
 	    
-	    System.out.println("First: ");
+	    System.out.print("First: ");
 	    firstName = sc.nextLine();
 	    
-	    System.out.println("Last: ");
+	    System.out.print("Last: ");
 	    lastName = sc.nextLine();
 	    
-	    System.out.println("Address: ");
+	    System.out.print("Address: ");
 	    address = sc.nextLine();
 	    
-	    System.out.println("City: ");
+	    System.out.print("City: ");
 	    city = sc.nextLine();
 	    
-	    System.out.println("State: ");
+	    System.out.print("State: ");
 	    state = sc.nextLine();
 	    
-	    System.out.println("Zip: ");
-	    zipCode = sc.nextInt();
+	    System.out.print("Zip: ");
+	    zipCode = Integer.parseInt(sc.nextLine());
 	    
 	    
 	    System.out.print(firstName + " ");
 	    System.out.println(lastName);
 	    System.out.println(address);
 	    System.out.print(city + ", ");
-	    System.out.print(state + " ");
+	    System.out.print(state + "  ");
 	    System.out.println(zipCode);
 	    
 	    
