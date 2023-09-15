@@ -12,7 +12,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Prog1Part3 {
+public class Prog1part3 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
