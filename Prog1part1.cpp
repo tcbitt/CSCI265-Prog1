@@ -48,7 +48,7 @@ int main(){
 	std::cout << lastName << std::endl;
 	std::cout << address << std::endl;
 	std::cout << city << ", ";
-	std::cout << state << " ";
+	std::cout << state << "  ";
 	std::cout << zipCode;
 
 }
