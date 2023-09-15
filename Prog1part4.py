@@ -17,4 +17,4 @@ total = ((coins[0] * 0.25)
     +(coins[2] * 0.05)
     +(coins[3] * 0.01))
 
-print("Amount: $" + str(round(total, 2)))
+print("Amount: $" + '{0:.2f}'.format(total))
