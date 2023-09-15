@@ -9,12 +9,10 @@
  */
 import java.util.Scanner;
 
-public class Prog1part1
-{
+public class Prog1part1 {
 	public static void main(String[] args) {
-		String firstName, lastName, address, city, state;
-		int zipCode;
-		
+		String firstName, lastName, address, city, state, zipCode;
+	
 		Scanner sc = new Scanner(System.in);
 	    
 	    System.out.print("First: ");
@@ -33,7 +31,7 @@ public class Prog1part1
 	    state = sc.nextLine();
 	    
 	    System.out.print("Zip: ");
-	    zipCode = Integer.parseInt(sc.nextLine());
+	    zipCode = sc.nextLine();
 	    
 	    
 	    System.out.print(firstName + " ");
@@ -41,7 +39,7 @@ public class Prog1part1
 	    System.out.println(address);
 	    System.out.print(city + ", ");
 	    System.out.print(state + "  ");
-	    System.out.println(zipCode);
+	    System.out.print(zipCode);
 	    
 	    
 	}
