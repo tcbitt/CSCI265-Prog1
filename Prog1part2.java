@@ -9,8 +9,7 @@
  */
 import java.util.Scanner;
 
-public class Prog1part2
-{
+public class Prog1part2 {
 	public static void main(String[] args) {
 		String firstName, lastName, address, city, state;
 		int zipCode;
@@ -37,8 +36,6 @@ public class Prog1part2
 	    
 	    
 	    System.out.print(firstName + " " + lastName + '\n' + address + '\n' + city + ", " + state + "  " + zipCode);
-	   
-	    
 	    
 	}
 }
