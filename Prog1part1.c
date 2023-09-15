@@ -39,14 +39,14 @@ int main() {
     scanf("%[^\n]%*c", state);
 
     printf("Zip: ");
-    scanf("%i", zipCode);
+    scanf("%d", zipCode);
 
     printf("%s ", firstName);
     printf("%s", lastName);
     printf("\n%s", address);
     printf("\n%s", city);
     printf(", %s", state);
-    printf("  %i", zipCode);
+    printf("  %d", zipCode);
 
     return 0;    
 }
