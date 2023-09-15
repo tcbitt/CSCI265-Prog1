@@ -43,11 +43,11 @@ int main(){
 
 
 	//Display input in mailing address format in a single cout statement
-	std::cout << firstName << " ";
-			  << lastName << std::endl;
-			  << address << std::endl;
-			  << city << ", ";
-			  << state << " ";
+	std::cout << firstName << " "
+			  << lastName << std::endl
+			  << address << std::endl
+			  << city << ", "
+			  << state << " "
 			  << zipCode;
 
 }
