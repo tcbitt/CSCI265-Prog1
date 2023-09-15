@@ -45,8 +45,8 @@ int main() {
     printf("%s", lastName);
     printf("\n%s", address);
     printf("\n%s", city);
-    printf(", %s ", state);
-    printf(" %i", zipCode);
+    printf(", %s", state);
+    printf("%i", zipCode);
 
     return 0;    
 }
