@@ -42,5 +42,5 @@ int main() {
     scanf("%i", &zip);
 
     //Single line printf formatting
-    printf("%s %s\n%s\n%s, %s\t%i", firstName, lastName, address, city, state, zipCode);
+    printf("%s %s\n%s\n%s, %s  %i", firstName, lastName, address, city, state, zipCode);
 }
