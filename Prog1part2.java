@@ -11,8 +11,7 @@ import java.util.Scanner;
 
 public class Prog1part2 {
 	public static void main(String[] args) {
-		String firstName, lastName, address, city, state;
-		int zipCode;
+		String firstName, lastName, address, city, state, zipCode;
 		
 		Scanner sc = new Scanner(System.in);
 	    
@@ -32,7 +31,7 @@ public class Prog1part2 {
 	    state = sc.nextLine();
 	    
 	    System.out.print("Zip: ");
-	    zipCode = Integer.parseInt(sc.nextLine());
+	    zipCode = sc.nextLine();
 	    
 	    
 	    System.out.print(firstName + " " + lastName + '\n' + address + '\n' + city + ", " + state + "  " + zipCode);
