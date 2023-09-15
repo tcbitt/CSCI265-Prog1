@@ -38,8 +38,6 @@ int main(){
 	std::cout << "State: ";
 	getline(std::cin, state, '\n');
 
-	std::cin.ignore(100, '\n');
-	
 	std::cout << "Zip: ";
 	std::cin >> zipCode;
 	
