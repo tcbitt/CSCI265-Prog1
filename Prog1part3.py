@@ -11,9 +11,9 @@ import math
 mSeconds = input("Milliseconds: ")
 mSeconds = int(mSeconds)
 
-print(str(math.floor(mSeconds/60000)) + " minute(s)") if (mSeconds >= 60000) else print("0 minute(s)")
+print(str(math.floor(mSeconds/60000))) if (mSeconds >= 60000) else print(0)
 mSeconds -= ((60000) * math.floor(mSeconds/60000))
-print(str(math.floor(mSeconds/1000)) + " second(s)") if (mSeconds >= 1000) else print("0 second(s)")
+print(str(math.floor(mSeconds/1000))) if (mSeconds >= 1000) else print(0)
 mSeconds -= ((1000) * math.floor(mSeconds/1000))
 
-print(str(mSeconds) + " milliseconds") 
+print(str(mSeconds)) 
