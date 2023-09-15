@@ -18,9 +18,10 @@ int main() {
         lastName[25],
         address[50],
         city[50],
-        state[50];
+        state[50],
+        zipcode[10];
     
-    int zipCode = 0;
+   
 
     //scanf("%[^\n]%*c) to grab the entire string instead of gets()
     printf("First: ");
@@ -39,14 +40,14 @@ int main() {
     scanf("%[^\n]%*c", state);
 
     printf("Zip: ");
-    scanf("%d", zipCode);
+    scanf("%[^\n]%*c", zipCode);
 
     printf("%s ", firstName);
     printf("%s", lastName);
     printf("\n%s", address);
     printf("\n%s", city);
     printf(", %s", state);
-    printf("  %d", zipCode);
+    printf("  %s", zipCode);
 
     return 0;    
 }
