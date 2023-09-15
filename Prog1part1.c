@@ -19,7 +19,7 @@ int main() {
         address[50],
         city[50],
         state[50],
-        zipcode[10];
+        zipCode[10];
     
    
 
