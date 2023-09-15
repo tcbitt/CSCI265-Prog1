@@ -17,8 +17,8 @@ int main() {
     char firstName[25],
         lastName[25],
         address[50],
-        city[25],
-        state[25];
+        city[50],
+        state[50];
     
     int zipCode = 0;
 
