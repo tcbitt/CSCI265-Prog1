@@ -9,6 +9,7 @@ Subtract # of milliseconds used and continue to find seconds, then repeat and di
 */
 
 #include <iostream>
+#include <cmath>
 
 int main() {
 	int mSeconds = 0;
