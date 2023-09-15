@@ -15,9 +15,10 @@ int main(){
 		lastName,
 		address,
 		city,
-		state;
+		state,
+		zip;
 
-	int zip;
+
 
 	//Display field and get input
 	std::cout << "First: ";
