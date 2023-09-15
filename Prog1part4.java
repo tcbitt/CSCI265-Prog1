@@ -12,7 +12,7 @@ import java.util.Scanner;
 import java.text.*;
 
 
-public class Prog1Part4 {
+public class Prog1part4 {
     public static void main(String[] args) {
         int[] coins = new int[4];
         
