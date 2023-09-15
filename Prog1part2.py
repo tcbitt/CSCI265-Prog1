@@ -12,4 +12,4 @@ city = input("City: ")
 state = input("State: ")
 zipCode = input("Zip: ")
 
-print(firstName + " " + lastName + "\n" + address + "\n" + city + ", " + state + " " + zipCode)
+print(firstName + " " + lastName + "\n" + address + "\n" + city + ", " + state + "  " + zipCode)
