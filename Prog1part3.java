@@ -22,13 +22,13 @@ public class Prog1part3 {
         mSeconds = sc.nextInt();
         
         
-        System.out.println(mSeconds >= 60000 ? mSeconds / 60000 + " minute(s)" : "0 minute(s)");
+        System.out.println(mSeconds >= 60000 ? mSeconds / 60000  : 0);
             mSeconds -= ((60000) * Math.floor(mSeconds / 60000));
             
-        System.out.println(mSeconds >= 1000 ? mSeconds / 1000 + " minute(s)" : "0 minute(s)");
+        System.out.println(mSeconds >= 1000 ? mSeconds / 1000 : 0);
             mSeconds -= ((1000) * Math.floor(mSeconds / 1000));
          
          
-        System.out.println(mSeconds + " milliseconds");
+        System.out.println(mSeconds);
     }
 }
