@@ -18,11 +18,11 @@ int main() {
 	printf("Milliseconds: ");
 	scanf("%d", &mSeconds);
 
-	if (mSeconds >= 60000 ? printf("%g %s\n", floor(mSeconds / 60000), "minute(s)") : printf("%s\n", "0 minute(s)"));
+	if (mSeconds >= 60000 ? printf("%g\n", floor(mSeconds / 60000)) : printf("%d\n", 0));
 	mSeconds -= ((60000) * floor(mSeconds / 60000));
 
-	if (mSeconds >= 1000 ? printf("%g %s\n", floor(mSeconds / 1000), "seconds(s)") : printf("%s\n", "0 second(s)"));
+	if (mSeconds >= 1000 ? printf("%g \n", floor(mSeconds / 1000)) : printf("%d\n", 0));
 	mSeconds -= ((1000) * floor(mSeconds / 1000));
 
-	printf("%d %s", mSeconds, "milliseconds");
+	printf("%d", mSeconds,);
 }
