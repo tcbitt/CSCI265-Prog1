@@ -47,7 +47,7 @@ int main(){
 			  << lastName << std::endl
 			  << address << std::endl
 			  << city << ", "
-			  << state << " "
+			  << state << "  "
 			  << zipCode;
 
 }
