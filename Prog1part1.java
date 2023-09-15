@@ -9,7 +9,7 @@
  */
 import java.util.Scanner;
 
-public class Prog1Part1
+public class Prog1part1
 {
 	public static void main(String[] args) {
 		String firstName, lastName, address, city, state;
